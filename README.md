@@ -1,8 +1,4 @@
-# Discounted Cash Flow Model
-Build: Feb 17, 2024
-
-Revise: Oct 17, 2024
-## Introduction
+# Cash Flow Forecasting & Valuation Model
 
 This five-year Discounted Cash Flow (DCF) model is designed to estimate the intrinsic value of publicly traded companies based on projected future cash flows. Leveraging financial data obtained through the `yfinance` API, this comprehensive valuation tool performs a series of complex calculations, including future **revenue** forecasts, **EBIT** (Earnings Before Interest and Taxes), **EBIAT** (Earnings Before Interest After Taxes), **Free Cash Flow**, **Weighted Average Cost of Capital** (WACC), and **Terminal Value**. The model's primary outputs are the **implied stock price** and the associated **margin of safety**, providing investors with crucial metrics for informed decision-making. Additionally, the model employs a **bisection algorithm** to compute the **implied revenue growth rate** that aligns the calculated stock price with the current market price, offering further insight into market expectations.
 
@@ -187,5 +183,3 @@ Drawbacks:
 - Stock relevant data: [Yahoo Finance](https://finance.yahoo.com)
 - Enterprise Value Multiples by Sector: [NYU](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html)
 
-## Disclaimer
-- This tool is for educational and research purposes only. It should not be considered as financial advice. Always conduct your own research and consult with a qualified financial advisor before making investment decisions.
